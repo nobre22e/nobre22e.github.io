@@ -1,0 +1,28 @@
+body {
+	margin: 0 !important;
+    padding: 0 !important;
+    position: relative;
+}
+h1 {
+	text-align: right;
+	top: 50%;
+	font-family: 'Playfair Display', serif;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+.fixed-bg {
+    background-image: url("files/background.JPG");
+    min-height: 100vh;
+    min-width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.details {
+	font-family: 'Raleway', sans-serif;
+}
