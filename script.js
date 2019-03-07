@@ -8,6 +8,7 @@ window.onload = function () {
 
 function Animate() {
 	var experiences = ['Mount Holyoke student', 'Microsoft Garage Alumni', 'radio show host', 'Dungeons and Dragons player'];
+	var links = ['','','',''];
 	var index = 0;
 	var next = function() {
 		index = index + 1 < experiences.length ? index + 1 : 0;

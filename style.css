@@ -7,6 +7,7 @@ h1 {
 	text-align: right;
 	top: 50%;
 	font-family: 'Playfair Display', serif;
+	font-size: 6vh;
 }
 
 p {
@@ -25,4 +26,25 @@ p {
 
 .details {
 	font-family: 'Raleway', sans-serif;
+	font-size: 4vh;
+	text-align: right;
+	padding-top: 70vh;
+	padding-right: 2vw; 
+}
+
+.spotify-playlist{
+    width:55%;
+    margin-right:2%;
+    float: left;
+}
+.spotify-playlist iframe{
+   width:100%;
+}
+.description {
+    width:42%;
+    float: left;
+    top: 50%;
+}
+.clearfix{
+    clear:both
 }
