@@ -9,6 +9,7 @@ body{
  }
 
 .head-text {
+    padding-top: 30px;
     position: absolute;
     top: 8px;
     right: 16px;
@@ -17,6 +18,7 @@ body{
 }
 
 .foot-text {
+    padding-top: 30px;
     position: absolute;
     bottom: 15%;
     right: 16px;
@@ -24,7 +26,17 @@ body{
     font-size: 4vh;
 }
 
-h3,h4 {
+@media only screen and (max-width: 600px) {
+    .foot-text {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 4vh;
+    }
+}
+
+h3,h4,h5 {
     font-family: 'Playfair Display', serif;
 }
 
@@ -48,20 +60,27 @@ a.email {
     color: #5BC0BE;
 }
 
-.collapsible {
-    border: none;    
-    outline: none;
-    background-color: #fcfdff;
-    cursor: pointer;
+.card {
+    background-color: #fcfdff !important;
+    border: 0 !important;
+}
+.card-header{
+    background-color: #e6eeff !important;
 }
 
-/* .collapsible:hover{
-    background-color: #e6eeff;
-} */
+.btn-link > h5{
+    color: #0B132B;
+    text-decoration: none !important;
+}
 
-.content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;    
-    background-color: #fcfdff;
-  }
+.btn-link:hover{
+    text-decoration: none !important;
+}
+
+#about, #portfolio, #contact, .head{
+    padding-top: 30px;
+}
+
+button{
+    text-align: left !important;
+}
