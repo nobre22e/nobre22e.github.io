@@ -1,50 +1,43 @@
-body {
-	margin: 0 !important;
-    padding: 0 !important;
-    position: relative;
+body{
+    background-color: rgb(252, 253, 255) !important;
+    color: #0B132B;
 }
-h1 {
-	text-align: right;
-	top: 50%;
+
+.container.head {
+    position: relative;
+    text-align: center;
+ }
+
+.head-text {
+    position: absolute;
+    top: 8px;
+    right: 16px;
 	font-family: 'Playfair Display', serif;
-	font-size: 6vh;
+    font-size: 6vh;
+}
+
+.foot-text {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4vh;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
 }
 
 p {
 	font-family: 'Raleway', sans-serif;
 }
 
-.fixed-bg {
-    background-image: url("files/background.JPG");
-    min-height: 100vh;
-    min-width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.footer {
+    padding: 6rem 0 4rem 0;
+    background-color: #0B132B;
+    color: #3A506B;
 }
 
-.details {
-	font-family: 'Raleway', sans-serif;
-	font-size: 4vh;
-	text-align: right;
-	padding-top: 70vh;
-	padding-right: 2vw; 
-}
-
-.spotify-playlist{
-    width:55%;
-    margin-right:2%;
-    float: left;
-}
-.spotify-playlist iframe{
-   width:100%;
-}
-.description {
-    width:42%;
-    float: left;
-    top: 50%;
-}
-.clearfix{
-    clear:both
+a.email {
+    color: #5BC0BE;
 }
