@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(252, 253, 255) !important;
+    background-color: #fcfdff !important;
     color: #0B132B;
 }
 
@@ -18,18 +18,24 @@ body{
 
 .foot-text {
     position: absolute;
-    bottom: 8px;
+    bottom: 15%;
     right: 16px;
     font-family: 'Raleway', sans-serif;
     font-size: 4vh;
 }
 
-h3 {
+h3,h4 {
     font-family: 'Playfair Display', serif;
 }
 
 p {
 	font-family: 'Raleway', sans-serif;
+}
+.content > p {
+    top: 18px;
+}
+p > a {
+    color: #5BC0BE;
 }
 
 .footer {
@@ -41,3 +47,21 @@ p {
 a.email {
     color: #5BC0BE;
 }
+
+.collapsible {
+    border: none;    
+    outline: none;
+    background-color: #fcfdff;
+    cursor: pointer;
+}
+
+/* .collapsible:hover{
+    background-color: #e6eeff;
+} */
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;    
+    background-color: #fcfdff;
+  }
