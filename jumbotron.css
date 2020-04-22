@@ -2,4 +2,8 @@
 body {
     padding-top: 3.5rem;
   }
-  
+
+  .navbar-brand{
+    font-family: 'Playfair Display', serif;
+    color: #476385 !important;
+  }

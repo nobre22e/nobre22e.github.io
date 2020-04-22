@@ -1,6 +1,6 @@
 body{
     background-color: #fcfdff !important;
-    color: #0B132B;
+    color: #0B132B !important;
 }
 
 .container.head {
@@ -36,11 +36,11 @@ body{
     }
 }
 
-h3,h4,h5 {
+h1,h2,h3,h4,h5 {
     font-family: 'Playfair Display', serif;
 }
 
-p {
+p,li, button > a {
 	font-family: 'Raleway', sans-serif;
 }
 .content > p {
@@ -52,8 +52,7 @@ p > a {
 
 .footer {
     padding: 6rem 0 4rem 0;
-    background-color: #0B132B;
-    color: #3A506B;
+    color: #476385;
 }
 
 a.email {
@@ -83,4 +82,8 @@ a.email {
 
 button{
     text-align: left !important;
+}
+
+.bg-custom {
+    background-color: #0B132B;
 }
