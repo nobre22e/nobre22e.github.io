@@ -40,7 +40,7 @@ h1,h2,h3,h4,h5 {
     font-family: 'Playfair Display', serif;
 }
 
-p,li, button > a {
+p,li, button > a, .card-body {
 	font-family: 'Raleway', sans-serif;
 }
 .content > p {
